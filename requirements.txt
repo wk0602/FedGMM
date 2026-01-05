@@ -1,0 +1,5 @@
+# Core dependencies
+torch>=1.0.0
+numpy>=1.0.0
+PyYAML>=5.0.0
+

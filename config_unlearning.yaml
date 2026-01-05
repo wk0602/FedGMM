@@ -1,0 +1,44 @@
+# FedGMM Unlearning Configuration File
+# 联邦遗忘配置文件
+
+# Basic Settings
+seed: 1
+device: 0
+module: CNN_CIFAR10
+algorithm: FedGMM
+dataloader: DataLoader_cifar10_pat
+
+# Data Settings
+N: 10                    # client num
+NC: 2                    # client_class_num
+balance: True            # balance or not for pathological separation
+B: 200                   # batch size
+C: 1.0                   # select client proportion
+
+# Training Settings
+R: 2000                  # communication round
+UR: 2000                 # Unlearning round, must be smaller than R
+E: 1                     # local epochs
+decay: 0.999             # learning rate decay
+step_type: bgd           # step type
+lr: 0.001                # learning rate
+
+# Unlearning Settings
+unlearn_cn: 1            # unlearn client num
+unlearn_pretrain: False  # pretrain the model before unlearning
+
+# FedGMM Specific Settings
+gmm_rho: 0.2             # Top-rho mask ratio for FedGMM
+gmm_mask_refresh: 10     # Mask refresh interval (0 means no refresh)
+gmm_kl_weight: 5.0       # KL-to-uniform loss weight for FedGMM
+gmm_temperature: 2.0     # Temperature for KL-to-uniform
+
+# Early Stopping Settings
+early_stop: True         # Enable early stopping
+early_stop_threshold: 0.05      # ASR threshold for early stopping (stop when ASR <= threshold)
+early_stop_patience: 10         # Patience for early stopping (stop if no improvement for N rounds)
+early_stop_min_delta: 0.001     # Minimum ASR change to count as improvement
+
+# Model Settings
+save_model: True         # save model
+

@@ -1,0 +1,31 @@
+# Federated Learning Pretraining Configuration File
+# 联邦学习预训练配置文件
+
+# Basic Settings
+seed: 1
+device: 0
+module: CNN_CIFAR10
+algorithm: FedAvg
+dataloader: DataLoader_cifar10_pat
+
+# Data Settings
+N: 10                    # client num
+NC: 2                    # client_class_num
+balance: True            # balance or not for pathological separation
+B: 200                   # batch size
+C: 1.0                   # select client proportion
+
+# Training Settings
+R: 2000                  # communication round
+E: 1                     # local epochs
+decay: 0.999             # learning rate decay
+step_type: bgd           # step type
+lr: 0.05                 # learning rate
+
+# Unlearning Settings
+unlearn_cn: 1            # unlearn client num
+unlearn_pretrain: True   # pretrain the model before unlearning
+
+# Model Settings
+save_model: True         # save model
+

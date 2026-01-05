@@ -1,0 +1,66 @@
+# FedGMM-Adversarial Unlearning Configuration File
+# 联邦对抗性遗忘配置文件
+#
+# This configuration uses Adversarial Forgetting Loss which forces the model
+# to make CONFIDENT WRONG predictions on forget data, instead of just 
+# uncertain predictions (KL-uniform).
+
+# Basic Settings
+seed: 1
+device: 0
+module: CNN_CIFAR10
+algorithm: FedGMM_Adversarial
+dataloader: DataLoader_cifar10_pat
+
+# Data Settings
+N: 10                    # client num
+NC: 2                    # client_class_num
+balance: True            # balance or not for pathological separation
+B: 200                   # batch size
+C: 1.0                   # select client proportion
+
+# Training Settings
+R: 2000                  # communication round
+UR: 2000                 # Unlearning round, must be smaller than R
+E: 1                     # local epochs
+decay: 0.999             # learning rate decay
+step_type: bgd           # step type
+lr: 0.001                # learning rate
+
+# Unlearning Settings
+unlearn_cn: 1            # unlearn client num
+unlearn_pretrain: False  # pretrain the model before unlearning
+
+# ========================================
+# FedGMM-Adversarial Specific Settings
+# ========================================
+
+# Gradient Masking Parameters
+adv_rho: 0.15            # Top-rho mask ratio (slightly higher than FedGMM for more aggressive unlearning)
+adv_mask_refresh: 5      # Mask refresh interval (more frequent than FedGMM)
+
+# Adversarial Forgetting Loss Parameters
+adv_weight: 1.0          # Overall loss weight
+adv_temperature: 2.0     # Temperature for softmax (higher = softer)
+adv_entropy_weight: 0.1  # Entropy regularization weight (prevents collapse to single wrong class)
+adv_margin: 0.3          # Margin for margin-based mode (p_correct should be < margin)
+
+# Loss Mode Options:
+#   - "confident_wrong": Push to confident wrong predictions (recommended, most aggressive)
+#   - "margin_based": Use margin loss for more stable training
+#   - "hybrid": Combine confident wrong with mild KL-uniform (balanced approach)
+adv_mode: confident_wrong
+
+# Advanced Options
+adv_use_grad_divergence: False   # Use gradient divergence for smarter mask selection
+
+# Early Stopping Settings
+early_stop: True                 # Enable early stopping
+early_stop_threshold: 0.05       # ASR threshold for early stopping (stop when ASR <= threshold)
+early_stop_patience: 10          # Patience for early stopping (stop if no improvement for N rounds)
+early_stop_min_delta: 0.001      # Minimum ASR change to count as improvement
+
+# Model Settings
+save_model: True         # save model
+
+
