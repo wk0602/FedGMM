@@ -115,9 +115,6 @@ class UnlearningTask(fp.BasicTask):
         )
         setattr(client, "backdoor_setting", backdoor)
 
-        client.local_test_data = copy.deepcopy(client.local_training_data)
-        client.local_test_number = client.local_training_number
-
         client.test = self.ClientTest(
             self.algorithm.train_setting, self.algorithm.device
         )

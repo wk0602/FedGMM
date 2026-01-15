@@ -1,9 +1,5 @@
 # FedGMM-Adversarial Unlearning Configuration File
-# 联邦对抗性遗忘配置文件
-#
-# This configuration uses Adversarial Forgetting Loss which forces the model
-# to make CONFIDENT WRONG predictions on forget data, instead of just 
-# uncertain predictions (KL-uniform).
+# 联邦对抗性遗忘配置文件（优化版 - 更激进的遗忘策略）
 
 # Basic Settings
 seed: 1
@@ -25,25 +21,25 @@ UR: 2000                 # Unlearning round, must be smaller than R
 E: 1                     # local epochs
 decay: 0.999             # learning rate decay
 step_type: bgd           # step type
-lr: 0.001                # learning rate
+lr: 0.005                # learning rate (提高学习率，加快遗忘速度)
 
 # Unlearning Settings
 unlearn_cn: 1            # unlearn client num
 unlearn_pretrain: False  # pretrain the model before unlearning
 
 # ========================================
-# FedGMM-Adversarial Specific Settings
+# FedGMM-Adversarial Specific Settings (优化版)
 # ========================================
 
 # Gradient Masking Parameters
-adv_rho: 0.15            # Top-rho mask ratio (slightly higher than FedGMM for more aggressive unlearning)
-adv_mask_refresh: 5      # Mask refresh interval (more frequent than FedGMM)
+adv_rho: 0.25            # Top-rho mask ratio (从0.15提高到0.25，掩码更多参数)
+adv_mask_refresh: 3      # Mask refresh interval (从5降到3，更频繁刷新掩码)
 
 # Adversarial Forgetting Loss Parameters
-adv_weight: 1.0          # Overall loss weight
-adv_temperature: 2.0     # Temperature for softmax (higher = softer)
-adv_entropy_weight: 0.1  # Entropy regularization weight (prevents collapse to single wrong class)
-adv_margin: 0.3          # Margin for margin-based mode (p_correct should be < margin)
+adv_weight: 3.0          # Overall loss weight (从1.0提高到3.0，增强对抗性损失的影响)
+adv_temperature: 1.5     # Temperature for softmax (从2.0降到1.5，使预测更尖锐)
+adv_entropy_weight: 0.05 # Entropy regularization weight (从0.1降到0.05，减少熵约束，允许更自信的错误预测)
+adv_margin: 0.2          # Margin for margin-based mode (从0.3降到0.2，更严格的要求)
 
 # Loss Mode Options:
 #   - "confident_wrong": Push to confident wrong predictions (recommended, most aggressive)
@@ -52,15 +48,13 @@ adv_margin: 0.3          # Margin for margin-based mode (p_correct should be < m
 adv_mode: confident_wrong
 
 # Advanced Options
-adv_use_grad_divergence: False   # Use gradient divergence for smarter mask selection
+adv_use_grad_divergence: True   # Use gradient divergence for smarter mask selection
 
 # Early Stopping Settings
 early_stop: True                 # Enable early stopping
 early_stop_threshold: 0.05       # ASR threshold for early stopping (stop when ASR <= threshold)
-early_stop_patience: 10          # Patience for early stopping (stop if no improvement for N rounds)
+early_stop_patience: 15          # Patience for early stopping (从10增加到15，给更多时间)
 early_stop_min_delta: 0.001      # Minimum ASR change to count as improvement
 
 # Model Settings
 save_model: True         # save model
-
-

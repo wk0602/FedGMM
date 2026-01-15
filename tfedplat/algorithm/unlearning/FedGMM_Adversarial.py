@@ -1,29 +1,3 @@
-"""
-FedGMM-Adversarial: Federated Gradient Masking with Adversarial Forgetting Loss
-
-This module implements an innovative unlearning algorithm that uses "confident wrong
-predictions" instead of "uncertain predictions" to achieve more thorough forgetting.
-
-Key Innovation:
-- Traditional unlearning (like FedGMM) pushes model outputs toward uniform distribution
-  (maximum uncertainty), which is a "soft" form of forgetting.
-- Our Adversarial Forgetting Loss forces the model to make CONFIDENT but WRONG predictions
-  on forget data, which is a stronger form of forgetting that more thoroughly breaks
-  the backdoor pattern associations.
-
-Loss Design:
-    L_adversarial = -log(1 - p_correct) + λ * Entropy(p)
-
-    Where:
-    - -log(1 - p_correct): Minimizes probability of correct class (forces wrong predictions)
-    - Entropy(p): Regularization to prevent collapse to single wrong class
-
-    This creates "confident wrong" predictions rather than "uncertain" predictions.
-
-Author: [Your Name]
-Date: 2024
-"""
-
 import tfedplat as fp
 import time
 import torch
