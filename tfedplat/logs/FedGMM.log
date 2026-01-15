@@ -1,0 +1,1211 @@
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0028952482355929844
+round 109 training_num 2725.0
+Unlearned Client Mean Global Test loss: 0.455609
+Unlearned Client Local Test Acc: 0.552(0.000), angle: 0.000000, min: 55.200000, max: 55.200000
+ASR: 0.085(0.000), min: 8.540000, max: 8.540000
+Retained Client Mean Global Test loss: 1.273233
+Retained Client Local Test Acc: 0.605(0.145), angle: 0.235370, min: 39.300000, max: 84.900000
+communication_time: 107.29582810401917, computation_time: 55.09675478935242 
+
+distance: 0.592
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.002909797221701492
+round 108 training_num 2700.0
+Unlearned Client Mean Global Test loss: 0.483860
+Unlearned Client Local Test Acc: 0.546(0.000), angle: 0.000000, min: 54.600000, max: 54.600000
+ASR: 0.083(0.000), min: 8.300000, max: 8.300000
+Retained Client Mean Global Test loss: 1.247689
+Retained Client Local Test Acc: 0.605(0.145), angle: 0.235974, min: 38.900000, max: 83.900000
+communication_time: 106.2314612865448, computation_time: 55.09456396102905 
+
+distance: 0.5906
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0029244193182929564
+round 107 training_num 2675.0
+Unlearned Client Mean Global Test loss: 0.470987
+Unlearned Client Local Test Acc: 0.567(0.000), angle: 0.000000, min: 56.700000, max: 56.700000
+ASR: 0.087(0.000), min: 8.680000, max: 8.680000
+Retained Client Mean Global Test loss: 1.274422
+Retained Client Local Test Acc: 0.607(0.142), angle: 0.229486, min: 38.900000, max: 83.400000
+communication_time: 105.17653965950012, computation_time: 54.02672076225281 
+
+distance: 0.589
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.00293911489275674
+round 106 training_num 2650.0
+Unlearned Client Mean Global Test loss: 0.478556
+Unlearned Client Local Test Acc: 0.595(0.000), angle: 0.000000, min: 59.500000, max: 59.500000
+ASR: 0.082(0.000), min: 8.180000, max: 8.180000
+Retained Client Mean Global Test loss: 1.265178
+Retained Client Local Test Acc: 0.603(0.150), angle: 0.243525, min: 38.400000, max: 85.300000
+communication_time: 104.3590259552002, computation_time: 54.024531841278076 
+
+distance: 0.5876
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0029538843143283823
+round 105 training_num 2625.0
+Unlearned Client Mean Global Test loss: 0.452014
+Unlearned Client Local Test Acc: 0.559(0.000), angle: 0.000000, min: 55.900000, max: 55.900000
+ASR: 0.084(0.000), min: 8.360000, max: 8.360000
+Retained Client Mean Global Test loss: 1.266956
+Retained Client Local Test Acc: 0.605(0.147), angle: 0.238070, min: 38.400000, max: 83.600000
+communication_time: 103.33900713920593, computation_time: 52.95660042762756 
+
+distance: 0.586
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0029687279540988767
+round 104 training_num 2600.0
+Unlearned Client Mean Global Test loss: 0.472272
+Unlearned Client Local Test Acc: 0.590(0.000), angle: 0.000000, min: 59.000000, max: 59.000000
+ASR: 0.081(0.000), min: 8.120000, max: 8.120000
+Retained Client Mean Global Test loss: 1.267300
+Retained Client Local Test Acc: 0.604(0.150), angle: 0.243565, min: 38.600000, max: 85.100000
+communication_time: 102.4166808128357, computation_time: 52.954387187957764 
+
+distance: 0.5845
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0029836461850239965
+round 103 training_num 2575.0
+Unlearned Client Mean Global Test loss: 0.482152
+Unlearned Client Local Test Acc: 0.550(0.000), angle: 0.000000, min: 55.000000, max: 55.000000
+ASR: 0.082(0.000), min: 8.180000, max: 8.180000
+Retained Client Mean Global Test loss: 1.253856
+Retained Client Local Test Acc: 0.605(0.146), angle: 0.237547, min: 38.300000, max: 83.400000
+communication_time: 101.34582996368408, computation_time: 51.878196477890015 
+
+distance: 0.5828
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.002998639381933665
+round 102 training_num 2550.0
+Unlearned Client Mean Global Test loss: 0.484295
+Unlearned Client Local Test Acc: 0.584(0.000), angle: 0.000000, min: 58.400000, max: 58.400000
+ASR: 0.084(0.000), min: 8.380000, max: 8.380000
+Retained Client Mean Global Test loss: 1.262078
+Retained Client Local Test Acc: 0.604(0.144), angle: 0.233808, min: 39.600000, max: 84.700000
+communication_time: 100.30465793609619, computation_time: 51.87597680091858 
+
+distance: 0.5815
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0030137079215413714
+round 101 training_num 2525.0
+Unlearned Client Mean Global Test loss: 0.437957
+Unlearned Client Local Test Acc: 0.575(0.000), angle: 0.000000, min: 57.500000, max: 57.500000
+ASR: 0.082(0.000), min: 8.220000, max: 8.220000
+Retained Client Mean Global Test loss: 1.258522
+Retained Client Local Test Acc: 0.604(0.145), angle: 0.236029, min: 40.000000, max: 85.200000
+communication_time: 99.32386183738708, computation_time: 50.81842303276062 
+
+distance: 0.5801
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0030288521824536397
+round 100 training_num 2500.0
+Unlearned Client Mean Global Test loss: 0.441673
+Unlearned Client Local Test Acc: 0.579(0.000), angle: 0.000000, min: 57.900000, max: 57.900000
+ASR: 0.081(0.000), min: 8.080000, max: 8.080000
+Retained Client Mean Global Test loss: 1.268233
+Retained Client Local Test Acc: 0.604(0.145), angle: 0.234973, min: 39.700000, max: 84.700000
+communication_time: 98.31518244743347, computation_time: 50.81625437736511 
+
+distance: 0.5786
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0030440725451795375
+round 99 training_num 2475.0
+Unlearned Client Mean Global Test loss: 0.544256
+Unlearned Client Local Test Acc: 0.571(0.000), angle: 0.000000, min: 57.100000, max: 57.100000
+ASR: 0.078(0.000), min: 7.760000, max: 7.760000
+Retained Client Mean Global Test loss: 1.237733
+Retained Client Local Test Acc: 0.603(0.151), angle: 0.245045, min: 38.000000, max: 84.700000
+communication_time: 97.54760146141052, computation_time: 49.90830063819885 
+
+distance: 0.5771
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003059369392140239
+round 98 training_num 2450.0
+Unlearned Client Mean Global Test loss: 0.494615
+Unlearned Client Local Test Acc: 0.567(0.000), angle: 0.000000, min: 56.700000, max: 56.700000
+ASR: 0.092(0.000), min: 9.200000, max: 9.200000
+Retained Client Mean Global Test loss: 1.275578
+Retained Client Local Test Acc: 0.608(0.136), angle: 0.219718, min: 40.800000, max: 83.500000
+communication_time: 96.73958969116211, computation_time: 49.906057834625244 
+
+distance: 0.5753
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003074743107678632
+round 97 training_num 2425.0
+Unlearned Client Mean Global Test loss: 0.496471
+Unlearned Client Local Test Acc: 0.573(0.000), angle: 0.000000, min: 57.300000, max: 57.300000
+ASR: 0.083(0.000), min: 8.280000, max: 8.280000
+Retained Client Mean Global Test loss: 1.258611
+Retained Client Local Test Acc: 0.603(0.144), angle: 0.233899, min: 40.100000, max: 85.000000
+communication_time: 95.72689700126648, computation_time: 48.85397982597351 
+
+distance: 0.5738
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0030901940780689767
+round 96 training_num 2400.0
+Unlearned Client Mean Global Test loss: 0.457106
+Unlearned Client Local Test Acc: 0.564(0.000), angle: 0.000000, min: 56.400000, max: 56.400000
+ASR: 0.091(0.000), min: 9.100000, max: 9.100000
+Retained Client Mean Global Test loss: 1.262256
+Retained Client Local Test Acc: 0.608(0.136), angle: 0.219962, min: 40.800000, max: 83.600000
+communication_time: 94.66406083106995, computation_time: 48.851786851882935 
+
+distance: 0.5721
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0031057226915266094
+round 95 training_num 2375.0
+Unlearned Client Mean Global Test loss: 0.458201
+Unlearned Client Local Test Acc: 0.559(0.000), angle: 0.000000, min: 55.900000, max: 55.900000
+ASR: 0.084(0.000), min: 8.440000, max: 8.440000
+Retained Client Mean Global Test loss: 1.286078
+Retained Client Local Test Acc: 0.605(0.143), angle: 0.232959, min: 39.800000, max: 84.400000
+communication_time: 93.63193392753601, computation_time: 47.78394031524658 
+
+distance: 0.5705
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003121329338217698
+round 94 training_num 2350.0
+Unlearned Client Mean Global Test loss: 0.496190
+Unlearned Client Local Test Acc: 0.557(0.000), angle: 0.000000, min: 55.700000, max: 55.700000
+ASR: 0.076(0.000), min: 7.640000, max: 7.640000
+Retained Client Mean Global Test loss: 1.249033
+Retained Client Local Test Acc: 0.601(0.156), angle: 0.253828, min: 36.900000, max: 84.300000
+communication_time: 92.64471912384033, computation_time: 47.781311988830566 
+
+distance: 0.5689
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0031370144102690436
+round 93 training_num 2325.0
+Unlearned Client Mean Global Test loss: 0.465339
+Unlearned Client Local Test Acc: 0.553(0.000), angle: 0.000000, min: 55.300000, max: 55.300000
+ASR: 0.085(0.000), min: 8.500000, max: 8.500000
+Retained Client Mean Global Test loss: 1.267600
+Retained Client Local Test Acc: 0.603(0.147), angle: 0.239131, min: 38.900000, max: 84.100000
+communication_time: 91.8664481639862, computation_time: 47.05585503578186 
+
+distance: 0.5672
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003152778301777933
+round 92 training_num 2300.0
+Unlearned Client Mean Global Test loss: 0.492988
+Unlearned Client Local Test Acc: 0.554(0.000), angle: 0.000000, min: 55.400000, max: 55.400000
+ASR: 0.079(0.000), min: 7.920000, max: 7.920000
+Retained Client Mean Global Test loss: 1.246378
+Retained Client Local Test Acc: 0.602(0.151), angle: 0.246356, min: 38.800000, max: 84.600000
+communication_time: 90.90567803382874, computation_time: 47.05366396903992 
+
+distance: 0.5657
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0031686214088220434
+round 91 training_num 2275.0
+Unlearned Client Mean Global Test loss: 0.493233
+Unlearned Client Local Test Acc: 0.568(0.000), angle: 0.000000, min: 56.800000, max: 56.800000
+ASR: 0.089(0.000), min: 8.860000, max: 8.860000
+Retained Client Mean Global Test loss: 1.260467
+Retained Client Local Test Acc: 0.607(0.144), angle: 0.232526, min: 38.900000, max: 83.800000
+communication_time: 90.12000036239624, computation_time: 46.32027840614319 
+
+distance: 0.5637
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0031845441294693906
+round 90 training_num 2250.0
+Unlearned Client Mean Global Test loss: 0.520100
+Unlearned Client Local Test Acc: 0.592(0.000), angle: 0.000000, min: 59.200000, max: 59.200000
+ASR: 0.082(0.000), min: 8.160000, max: 8.160000
+Retained Client Mean Global Test loss: 1.256789
+Retained Client Local Test Acc: 0.603(0.154), angle: 0.249522, min: 37.100000, max: 85.100000
+communication_time: 89.1356930732727, computation_time: 46.31806826591492 
+
+distance: 0.5621
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0032005468637883324
+round 89 training_num 2225.0
+Unlearned Client Mean Global Test loss: 0.489306
+Unlearned Client Local Test Acc: 0.577(0.000), angle: 0.000000, min: 57.700000, max: 57.700000
+ASR: 0.088(0.000), min: 8.840000, max: 8.840000
+Retained Client Mean Global Test loss: 1.254944
+Retained Client Local Test Acc: 0.607(0.141), angle: 0.228541, min: 39.500000, max: 84.000000
+communication_time: 88.32625102996826, computation_time: 45.35261392593384 
+
+distance: 0.5601
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0032166300138576206
+round 88 training_num 2200.0
+Unlearned Client Mean Global Test loss: 0.525626
+Unlearned Client Local Test Acc: 0.583(0.000), angle: 0.000000, min: 58.300000, max: 58.300000
+ASR: 0.088(0.000), min: 8.840000, max: 8.840000
+Retained Client Mean Global Test loss: 1.260411
+Retained Client Local Test Acc: 0.606(0.142), angle: 0.229447, min: 40.100000, max: 84.500000
+communication_time: 87.55691647529602, computation_time: 45.35080075263977 
+
+distance: 0.5585
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003232793983776503
+round 87 training_num 2175.0
+Unlearned Client Mean Global Test loss: 0.492386
+Unlearned Client Local Test Acc: 0.570(0.000), angle: 0.000000, min: 57.000000, max: 57.000000
+ASR: 0.089(0.000), min: 8.860000, max: 8.860000
+Retained Client Mean Global Test loss: 1.273944
+Retained Client Local Test Acc: 0.606(0.145), angle: 0.234724, min: 39.300000, max: 84.500000
+communication_time: 86.7796061038971, computation_time: 44.621296644210815 
+
+distance: 0.5568
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003249039179674877
+round 86 training_num 2150.0
+Unlearned Client Mean Global Test loss: 0.492111
+Unlearned Client Local Test Acc: 0.577(0.000), angle: 0.000000, min: 57.700000, max: 57.700000
+ASR: 0.083(0.000), min: 8.280000, max: 8.280000
+Retained Client Mean Global Test loss: 1.266678
+Retained Client Local Test Acc: 0.602(0.154), angle: 0.250449, min: 37.700000, max: 85.400000
+communication_time: 85.81608533859253, computation_time: 44.61914134025574 
+
+distance: 0.5552
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0032653660097234946
+round 85 training_num 2125.0
+Unlearned Client Mean Global Test loss: 0.523892
+Unlearned Client Local Test Acc: 0.586(0.000), angle: 0.000000, min: 58.600000, max: 58.600000
+ASR: 0.080(0.000), min: 8.040000, max: 8.040000
+Retained Client Mean Global Test loss: 1.256222
+Retained Client Local Test Acc: 0.602(0.156), angle: 0.253117, min: 36.400000, max: 85.000000
+communication_time: 84.84266638755798, computation_time: 43.64698052406311 
+
+distance: 0.5536
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0032817748841442156
+round 84 training_num 2100.0
+Unlearned Client Mean Global Test loss: 0.470693
+Unlearned Client Local Test Acc: 0.580(0.000), angle: 0.000000, min: 58.000000, max: 58.000000
+ASR: 0.087(0.000), min: 8.740000, max: 8.740000
+Retained Client Mean Global Test loss: 1.255200
+Retained Client Local Test Acc: 0.605(0.145), angle: 0.234985, min: 39.600000, max: 85.000000
+communication_time: 84.0644166469574, computation_time: 43.645190477371216 
+
+distance: 0.5521
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0032982662152203175
+round 83 training_num 2075.0
+Unlearned Client Mean Global Test loss: 0.549299
+Unlearned Client Local Test Acc: 0.580(0.000), angle: 0.000000, min: 58.000000, max: 58.000000
+ASR: 0.086(0.000), min: 8.620000, max: 8.620000
+Retained Client Mean Global Test loss: 1.258756
+Retained Client Local Test Acc: 0.604(0.147), angle: 0.237937, min: 38.200000, max: 83.900000
+communication_time: 83.05681991577148, computation_time: 42.579283237457275 
+
+distance: 0.5502
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0033148404173068513
+round 82 training_num 2050.0
+Unlearned Client Mean Global Test loss: 0.485051
+Unlearned Client Local Test Acc: 0.595(0.000), angle: 0.000000, min: 59.500000, max: 59.500000
+ASR: 0.090(0.000), min: 8.980000, max: 8.980000
+Retained Client Mean Global Test loss: 1.272222
+Retained Client Local Test Acc: 0.606(0.140), angle: 0.227778, min: 39.700000, max: 83.900000
+communication_time: 82.010662317276, computation_time: 42.57713532447815 
+
+distance: 0.5483
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0033314979068410568
+round 81 training_num 2025.0
+Unlearned Client Mean Global Test loss: 0.512702
+Unlearned Client Local Test Acc: 0.578(0.000), angle: 0.000000, min: 57.800000, max: 57.800000
+ASR: 0.087(0.000), min: 8.680000, max: 8.680000
+Retained Client Mean Global Test loss: 1.267678
+Retained Client Local Test Acc: 0.603(0.150), angle: 0.244485, min: 38.400000, max: 85.200000
+communication_time: 81.0259039402008, computation_time: 41.504008054733276 
+
+distance: 0.5465
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003348239102352821
+round 80 training_num 2000.0
+Unlearned Client Mean Global Test loss: 0.438628
+Unlearned Client Local Test Acc: 0.574(0.000), angle: 0.000000, min: 57.400000, max: 57.400000
+ASR: 0.087(0.000), min: 8.740000, max: 8.740000
+Retained Client Mean Global Test loss: 1.317689
+Retained Client Local Test Acc: 0.603(0.150), angle: 0.244044, min: 38.300000, max: 84.700000
+communication_time: 79.99417543411255, computation_time: 41.50184082984924 
+
+distance: 0.5447
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0033650644244751973
+round 79 training_num 1975.0
+Unlearned Client Mean Global Test loss: 0.533384
+Unlearned Client Local Test Acc: 0.581(0.000), angle: 0.000000, min: 58.100000, max: 58.100000
+ASR: 0.080(0.000), min: 7.960000, max: 7.960000
+Retained Client Mean Global Test loss: 1.261344
+Retained Client Local Test Acc: 0.596(0.163), angle: 0.266079, min: 36.800000, max: 86.400000
+communication_time: 79.15553045272827, computation_time: 40.76152729988098 
+
+distance: 0.5428
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003381974295954972
+round 78 training_num 1950.0
+Unlearned Client Mean Global Test loss: 0.502789
+Unlearned Client Local Test Acc: 0.589(0.000), angle: 0.000000, min: 58.900000, max: 58.900000
+ASR: 0.091(0.000), min: 9.060000, max: 9.060000
+Retained Client Mean Global Test loss: 1.250044
+Retained Client Local Test Acc: 0.605(0.147), angle: 0.238128, min: 38.900000, max: 84.900000
+communication_time: 78.38662266731262, computation_time: 40.75967049598694 
+
+distance: 0.541
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0033989691416632883
+round 77 training_num 1925.0
+Unlearned Client Mean Global Test loss: 0.494410
+Unlearned Client Local Test Acc: 0.581(0.000), angle: 0.000000, min: 58.100000, max: 58.100000
+ASR: 0.087(0.000), min: 8.700000, max: 8.700000
+Retained Client Mean Global Test loss: 1.246056
+Retained Client Local Test Acc: 0.604(0.151), angle: 0.245450, min: 37.200000, max: 84.100000
+communication_time: 77.3877067565918, computation_time: 39.68862342834473 
+
+distance: 0.5393
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.00341604938860632
+round 76 training_num 1900.0
+Unlearned Client Mean Global Test loss: 0.533628
+Unlearned Client Local Test Acc: 0.590(0.000), angle: 0.000000, min: 59.000000, max: 59.000000
+ASR: 0.087(0.000), min: 8.740000, max: 8.740000
+Retained Client Mean Global Test loss: 1.230533
+Retained Client Local Test Acc: 0.603(0.151), angle: 0.245148, min: 36.600000, max: 83.700000
+communication_time: 76.39099740982056, computation_time: 39.68644118309021 
+
+distance: 0.5374
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0034332154659359997
+round 75 training_num 1875.0
+Unlearned Client Mean Global Test loss: 0.474520
+Unlearned Client Local Test Acc: 0.574(0.000), angle: 0.000000, min: 57.400000, max: 57.400000
+ASR: 0.093(0.000), min: 9.300000, max: 9.300000
+Retained Client Mean Global Test loss: 1.268722
+Retained Client Local Test Acc: 0.606(0.147), angle: 0.238221, min: 37.600000, max: 83.600000
+communication_time: 75.39805579185486, computation_time: 38.6153724193573 
+
+distance: 0.5353
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003450467804960804
+round 74 training_num 1850.0
+Unlearned Client Mean Global Test loss: 0.483369
+Unlearned Client Local Test Acc: 0.597(0.000), angle: 0.000000, min: 59.700000, max: 59.700000
+ASR: 0.084(0.000), min: 8.400000, max: 8.400000
+Retained Client Mean Global Test loss: 1.267600
+Retained Client Local Test Acc: 0.601(0.160), angle: 0.259310, min: 35.500000, max: 85.100000
+communication_time: 74.55647683143616, computation_time: 38.61349654197693 
+
+distance: 0.5332
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003467806839156587
+round 73 training_num 1825.0
+Unlearned Client Mean Global Test loss: 0.493051
+Unlearned Client Local Test Acc: 0.579(0.000), angle: 0.000000, min: 57.900000, max: 57.900000
+ASR: 0.087(0.000), min: 8.700000, max: 8.700000
+Retained Client Mean Global Test loss: 1.304311
+Retained Client Local Test Acc: 0.603(0.150), angle: 0.243617, min: 37.600000, max: 83.800000
+communication_time: 73.52318716049194, computation_time: 37.81692385673523 
+
+distance: 0.5312
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0034852330041774742
+round 72 training_num 1800.0
+Unlearned Client Mean Global Test loss: 0.529555
+Unlearned Client Local Test Acc: 0.587(0.000), angle: 0.000000, min: 58.700000, max: 58.700000
+ASR: 0.084(0.000), min: 8.360000, max: 8.360000
+Retained Client Mean Global Test loss: 1.276167
+Retained Client Local Test Acc: 0.600(0.163), angle: 0.265838, min: 34.700000, max: 84.800000
+communication_time: 72.61416697502136, computation_time: 37.81512403488159 
+
+distance: 0.5292
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003502746737866808
+round 71 training_num 1775.0
+Unlearned Client Mean Global Test loss: 0.527203
+Unlearned Client Local Test Acc: 0.590(0.000), angle: 0.000000, min: 59.000000, max: 59.000000
+ASR: 0.091(0.000), min: 9.140000, max: 9.140000
+Retained Client Mean Global Test loss: 1.284611
+Retained Client Local Test Acc: 0.600(0.155), angle: 0.252394, min: 37.400000, max: 85.200000
+communication_time: 71.57131266593933, computation_time: 36.71992635726929 
+
+distance: 0.5272
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003520348480268149
+round 70 training_num 1750.0
+Unlearned Client Mean Global Test loss: 0.487260
+Unlearned Client Local Test Acc: 0.589(0.000), angle: 0.000000, min: 58.900000, max: 58.900000
+ASR: 0.088(0.000), min: 8.840000, max: 8.840000
+Retained Client Mean Global Test loss: 1.289900
+Retained Client Local Test Acc: 0.601(0.158), angle: 0.257926, min: 36.100000, max: 84.800000
+communication_time: 70.53747010231018, computation_time: 36.71772027015686 
+
+distance: 0.5251
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0035380386736363306
+round 69 training_num 1725.0
+Unlearned Client Mean Global Test loss: 0.579710
+Unlearned Client Local Test Acc: 0.583(0.000), angle: 0.000000, min: 58.300000, max: 58.300000
+ASR: 0.087(0.000), min: 8.680000, max: 8.680000
+Retained Client Mean Global Test loss: 1.256200
+Retained Client Local Test Acc: 0.601(0.156), angle: 0.254080, min: 37.800000, max: 85.500000
+communication_time: 69.49239778518677, computation_time: 35.64514088630676 
+
+distance: 0.5233
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0035558177624485736
+round 68 training_num 1700.0
+Unlearned Client Mean Global Test loss: 0.493793
+Unlearned Client Local Test Acc: 0.579(0.000), angle: 0.000000, min: 57.900000, max: 57.900000
+ASR: 0.095(0.000), min: 9.520000, max: 9.520000
+Retained Client Mean Global Test loss: 1.273778
+Retained Client Local Test Acc: 0.605(0.145), angle: 0.235068, min: 39.000000, max: 84.200000
+communication_time: 68.4344756603241, computation_time: 35.642985343933105 
+
+distance: 0.5213
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0035736861934156524
+round 67 training_num 1675.0
+Unlearned Client Mean Global Test loss: 0.483535
+Unlearned Client Local Test Acc: 0.585(0.000), angle: 0.000000, min: 58.500000, max: 58.500000
+ASR: 0.087(0.000), min: 8.720000, max: 8.720000
+Retained Client Mean Global Test loss: 1.279344
+Retained Client Local Test Acc: 0.602(0.157), angle: 0.255181, min: 37.000000, max: 84.900000
+communication_time: 67.43772268295288, computation_time: 34.64956092834473 
+
+distance: 0.5197
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0035916444154931175
+round 66 training_num 1650.0
+Unlearned Client Mean Global Test loss: 0.561365
+Unlearned Client Local Test Acc: 0.580(0.000), angle: 0.000000, min: 58.000000, max: 58.000000
+ASR: 0.090(0.000), min: 9.040000, max: 9.040000
+Retained Client Mean Global Test loss: 1.243589
+Retained Client Local Test Acc: 0.601(0.159), angle: 0.259149, min: 35.900000, max: 84.500000
+communication_time: 66.37253952026367, computation_time: 34.64735817909241 
+
+distance: 0.5178
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0036096928798925805
+round 65 training_num 1625.0
+Unlearned Client Mean Global Test loss: 0.535704
+Unlearned Client Local Test Acc: 0.576(0.000), angle: 0.000000, min: 57.600000, max: 57.600000
+ASR: 0.102(0.000), min: 10.240000, max: 10.240000
+Retained Client Mean Global Test loss: 1.243756
+Retained Client Local Test Acc: 0.605(0.140), angle: 0.228178, min: 40.500000, max: 84.200000
+communication_time: 65.32626438140869, computation_time: 33.584391355514526 
+
+distance: 0.5157
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0036278320400930457
+round 64 training_num 1600.0
+Unlearned Client Mean Global Test loss: 0.528899
+Unlearned Client Local Test Acc: 0.594(0.000), angle: 0.000000, min: 59.400000, max: 59.400000
+ASR: 0.097(0.000), min: 9.660000, max: 9.660000
+Retained Client Mean Global Test loss: 1.267256
+Retained Client Local Test Acc: 0.605(0.155), angle: 0.250386, min: 35.900000, max: 84.000000
+communication_time: 64.41546773910522, computation_time: 33.58223223686218 
+
+distance: 0.5134
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003646062351852307
+round 63 training_num 1575.0
+Unlearned Client Mean Global Test loss: 0.508441
+Unlearned Client Local Test Acc: 0.566(0.000), angle: 0.000000, min: 56.600000, max: 56.600000
+ASR: 0.093(0.000), min: 9.320000, max: 9.320000
+Retained Client Mean Global Test loss: 1.258622
+Retained Client Local Test Acc: 0.602(0.156), angle: 0.254326, min: 36.100000, max: 83.700000
+communication_time: 63.38856863975525, computation_time: 32.53305912017822 
+
+distance: 0.5114
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0036643842732183994
+round 62 training_num 1550.0
+Unlearned Client Mean Global Test loss: 0.506543
+Unlearned Client Local Test Acc: 0.589(0.000), angle: 0.000000, min: 58.900000, max: 58.900000
+ASR: 0.096(0.000), min: 9.640000, max: 9.640000
+Retained Client Mean Global Test loss: 1.278600
+Retained Client Local Test Acc: 0.604(0.154), angle: 0.250306, min: 37.800000, max: 85.600000
+communication_time: 62.40670371055603, computation_time: 32.53091740608215 
+
+distance: 0.5093
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0036827982645411053
+round 61 training_num 1525.0
+Unlearned Client Mean Global Test loss: 0.567305
+Unlearned Client Local Test Acc: 0.588(0.000), angle: 0.000000, min: 58.800000, max: 58.800000
+ASR: 0.092(0.000), min: 9.200000, max: 9.200000
+Retained Client Mean Global Test loss: 1.252844
+Retained Client Local Test Acc: 0.601(0.157), angle: 0.255008, min: 37.600000, max: 85.600000
+communication_time: 61.4021520614624, computation_time: 31.459094285964966 
+
+distance: 0.5073
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0037013047884835227
+round 60 training_num 1500.0
+Unlearned Client Mean Global Test loss: 0.524480
+Unlearned Client Local Test Acc: 0.565(0.000), angle: 0.000000, min: 56.500000, max: 56.500000
+ASR: 0.102(0.000), min: 10.160000, max: 10.160000
+Retained Client Mean Global Test loss: 1.284144
+Retained Client Local Test Acc: 0.605(0.148), angle: 0.239521, min: 38.200000, max: 83.700000
+communication_time: 60.5316162109375, computation_time: 31.457258701324463 
+
+distance: 0.505
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003719904310033691
+round 59 training_num 1475.0
+Unlearned Client Mean Global Test loss: 0.510662
+Unlearned Client Local Test Acc: 0.560(0.000), angle: 0.000000, min: 56.000000, max: 56.000000
+ASR: 0.092(0.000), min: 9.240000, max: 9.240000
+Retained Client Mean Global Test loss: 1.272100
+Retained Client Local Test Acc: 0.602(0.158), angle: 0.257317, min: 37.000000, max: 85.200000
+communication_time: 59.4880428314209, computation_time: 30.511624097824097 
+
+distance: 0.5029
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0037385972965162722
+round 58 training_num 1450.0
+Unlearned Client Mean Global Test loss: 0.533052
+Unlearned Client Local Test Acc: 0.576(0.000), angle: 0.000000, min: 57.600000, max: 57.600000
+ASR: 0.096(0.000), min: 9.580000, max: 9.580000
+Retained Client Mean Global Test loss: 1.249700
+Retained Client Local Test Acc: 0.602(0.155), angle: 0.252703, min: 38.000000, max: 85.800000
+communication_time: 58.4362268447876, computation_time: 30.50944495201111 
+
+distance: 0.5008
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003757384217604294
+round 57 training_num 1425.0
+Unlearned Client Mean Global Test loss: 0.549591
+Unlearned Client Local Test Acc: 0.587(0.000), angle: 0.000000, min: 58.700000, max: 58.700000
+ASR: 0.098(0.000), min: 9.800000, max: 9.800000
+Retained Client Mean Global Test loss: 1.255056
+Retained Client Local Test Acc: 0.603(0.156), angle: 0.252555, min: 36.500000, max: 84.800000
+communication_time: 57.38703370094299, computation_time: 29.443872928619385 
+
+distance: 0.4988
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0037762655453309484
+round 56 training_num 1400.0
+Unlearned Client Mean Global Test loss: 0.534607
+Unlearned Client Local Test Acc: 0.563(0.000), angle: 0.000000, min: 56.300000, max: 56.300000
+ASR: 0.099(0.000), min: 9.880000, max: 9.880000
+Retained Client Mean Global Test loss: 1.253178
+Retained Client Local Test Acc: 0.603(0.150), angle: 0.243624, min: 39.000000, max: 84.900000
+communication_time: 56.34930419921875, computation_time: 29.4413001537323 
+
+distance: 0.4965
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003795241754101456
+round 55 training_num 1375.0
+Unlearned Client Mean Global Test loss: 0.533674
+Unlearned Client Local Test Acc: 0.575(0.000), angle: 0.000000, min: 57.500000, max: 57.500000
+ASR: 0.099(0.000), min: 9.900000, max: 9.900000
+Retained Client Mean Global Test loss: 1.261511
+Retained Client Local Test Acc: 0.601(0.154), angle: 0.251293, min: 37.500000, max: 85.400000
+communication_time: 55.40525460243225, computation_time: 28.58427333831787 
+
+distance: 0.4941
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0038143133207049805
+round 54 training_num 1350.0
+Unlearned Client Mean Global Test loss: 0.573144
+Unlearned Client Local Test Acc: 0.567(0.000), angle: 0.000000, min: 56.700000, max: 56.700000
+ASR: 0.096(0.000), min: 9.600000, max: 9.600000
+Retained Client Mean Global Test loss: 1.243400
+Retained Client Local Test Acc: 0.602(0.157), angle: 0.254303, min: 37.400000, max: 85.600000
+communication_time: 54.372990131378174, computation_time: 28.582084894180298 
+
+distance: 0.4918
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003833480724326614
+round 53 training_num 1325.0
+Unlearned Client Mean Global Test loss: 0.531052
+Unlearned Client Local Test Acc: 0.575(0.000), angle: 0.000000, min: 57.500000, max: 57.500000
+ASR: 0.102(0.000), min: 10.220000, max: 10.220000
+Retained Client Mean Global Test loss: 1.287089
+Retained Client Local Test Acc: 0.604(0.145), angle: 0.235808, min: 39.500000, max: 84.600000
+communication_time: 53.397727489471436, computation_time: 27.72866654396057 
+
+distance: 0.4891
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003852744446559411
+round 52 training_num 1300.0
+Unlearned Client Mean Global Test loss: 0.546456
+Unlearned Client Local Test Acc: 0.563(0.000), angle: 0.000000, min: 56.300000, max: 56.300000
+ASR: 0.096(0.000), min: 9.560000, max: 9.560000
+Retained Client Mean Global Test loss: 1.288244
+Retained Client Local Test Acc: 0.602(0.160), angle: 0.259316, min: 37.000000, max: 85.600000
+communication_time: 52.39603137969971, computation_time: 27.72645854949951 
+
+distance: 0.4864
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0038721049714164936
+round 51 training_num 1275.0
+Unlearned Client Mean Global Test loss: 0.596343
+Unlearned Client Local Test Acc: 0.590(0.000), angle: 0.000000, min: 59.000000, max: 59.000000
+ASR: 0.093(0.000), min: 9.280000, max: 9.280000
+Retained Client Mean Global Test loss: 1.235956
+Retained Client Local Test Acc: 0.598(0.169), angle: 0.275479, min: 33.800000, max: 85.200000
+communication_time: 51.377663373947144, computation_time: 26.655025005340576 
+
+distance: 0.4841
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0038915627853432096
+round 50 training_num 1250.0
+Unlearned Client Mean Global Test loss: 0.523443
+Unlearned Client Local Test Acc: 0.584(0.000), angle: 0.000000, min: 58.400000, max: 58.400000
+ASR: 0.105(0.000), min: 10.520000, max: 10.520000
+Retained Client Mean Global Test loss: 1.267411
+Retained Client Local Test Acc: 0.604(0.148), angle: 0.239803, min: 39.400000, max: 85.000000
+communication_time: 50.338154554367065, computation_time: 26.652820825576782 
+
+distance: 0.4816
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003911118377229356
+round 49 training_num 1225.0
+Unlearned Client Mean Global Test loss: 0.559058
+Unlearned Client Local Test Acc: 0.583(0.000), angle: 0.000000, min: 58.300000, max: 58.300000
+ASR: 0.098(0.000), min: 9.840000, max: 9.840000
+Retained Client Mean Global Test loss: 1.229978
+Retained Client Local Test Acc: 0.601(0.165), angle: 0.267763, min: 34.000000, max: 84.700000
+communication_time: 49.28643321990967, computation_time: 25.583409309387207 
+
+distance: 0.4793
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003930772238421464
+round 48 training_num 1200.0
+Unlearned Client Mean Global Test loss: 0.518171
+Unlearned Client Local Test Acc: 0.567(0.000), angle: 0.000000, min: 56.700000, max: 56.700000
+ASR: 0.105(0.000), min: 10.480000, max: 10.480000
+Retained Client Mean Global Test loss: 1.265567
+Retained Client Local Test Acc: 0.603(0.156), angle: 0.252951, min: 37.400000, max: 85.200000
+communication_time: 48.23463559150696, computation_time: 25.5812349319458 
+
+distance: 0.4766
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003950524862735139
+round 47 training_num 1175.0
+Unlearned Client Mean Global Test loss: 0.583591
+Unlearned Client Local Test Acc: 0.605(0.000), angle: 0.000000, min: 60.500000, max: 60.500000
+ASR: 0.096(0.000), min: 9.560000, max: 9.560000
+Retained Client Mean Global Test loss: 1.262811
+Retained Client Local Test Acc: 0.597(0.170), angle: 0.277181, min: 32.900000, max: 85.200000
+communication_time: 47.085533618927, computation_time: 24.496434450149536 
+
+distance: 0.4742
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003970376746467477
+round 46 training_num 1150.0
+Unlearned Client Mean Global Test loss: 0.592738
+Unlearned Client Local Test Acc: 0.598(0.000), angle: 0.000000, min: 59.800000, max: 59.800000
+ASR: 0.108(0.000), min: 10.780000, max: 10.780000
+Retained Client Mean Global Test loss: 1.224722
+Retained Client Local Test Acc: 0.602(0.158), angle: 0.256791, min: 37.700000, max: 86.500000
+communication_time: 46.04453492164612, computation_time: 24.49413537979126 
+
+distance: 0.471
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.003990328388409525
+round 45 training_num 1125.0
+Unlearned Client Mean Global Test loss: 0.586794
+Unlearned Client Local Test Acc: 0.586(0.000), angle: 0.000000, min: 58.600000, max: 58.600000
+ASR: 0.111(0.000), min: 11.120000, max: 11.120000
+Retained Client Mean Global Test loss: 1.257622
+Retained Client Local Test Acc: 0.605(0.150), angle: 0.242590, min: 38.700000, max: 84.800000
+communication_time: 45.00744128227234, computation_time: 23.423891305923462 
+
+distance: 0.4686
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004010380289858818
+round 44 training_num 1100.0
+Unlearned Client Mean Global Test loss: 0.572177
+Unlearned Client Local Test Acc: 0.557(0.000), angle: 0.000000, min: 55.700000, max: 55.700000
+ASR: 0.106(0.000), min: 10.580000, max: 10.580000
+Retained Client Mean Global Test loss: 1.252389
+Retained Client Local Test Acc: 0.601(0.166), angle: 0.269546, min: 34.500000, max: 84.800000
+communication_time: 43.93589234352112, computation_time: 23.42173719406128 
+
+distance: 0.4661
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004030532954631978
+round 43 training_num 1075.0
+Unlearned Client Mean Global Test loss: 0.588083
+Unlearned Client Local Test Acc: 0.583(0.000), angle: 0.000000, min: 58.300000, max: 58.300000
+ASR: 0.106(0.000), min: 10.560000, max: 10.560000
+Retained Client Mean Global Test loss: 1.245644
+Retained Client Local Test Acc: 0.600(0.160), angle: 0.261296, min: 35.900000, max: 85.200000
+communication_time: 42.89445734024048, computation_time: 22.318870306015015 
+
+distance: 0.4635
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004050786889077365
+round 42 training_num 1050.0
+Unlearned Client Mean Global Test loss: 0.599857
+Unlearned Client Local Test Acc: 0.576(0.000), angle: 0.000000, min: 57.600000, max: 57.600000
+ASR: 0.109(0.000), min: 10.940000, max: 10.940000
+Retained Client Mean Global Test loss: 1.262167
+Retained Client Local Test Acc: 0.602(0.155), angle: 0.251663, min: 39.100000, max: 85.800000
+communication_time: 42.01472282409668, computation_time: 22.316715002059937 
+
+distance: 0.4607
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004071142602087805
+round 41 training_num 1025.0
+Unlearned Client Mean Global Test loss: 0.558826
+Unlearned Client Local Test Acc: 0.575(0.000), angle: 0.000000, min: 57.500000, max: 57.500000
+ASR: 0.110(0.000), min: 10.980000, max: 10.980000
+Retained Client Mean Global Test loss: 1.272800
+Retained Client Local Test Acc: 0.600(0.166), angle: 0.269711, min: 33.600000, max: 84.300000
+communication_time: 40.98896360397339, computation_time: 21.240122318267822 
+
+distance: 0.458
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004091600605113372
+round 40 training_num 1000.0
+Unlearned Client Mean Global Test loss: 0.547969
+Unlearned Client Local Test Acc: 0.555(0.000), angle: 0.000000, min: 55.500000, max: 55.500000
+ASR: 0.107(0.000), min: 10.700000, max: 10.700000
+Retained Client Mean Global Test loss: 1.259767
+Retained Client Local Test Acc: 0.600(0.163), angle: 0.264763, min: 36.200000, max: 85.700000
+communication_time: 39.896103620529175, computation_time: 21.23795485496521 
+
+distance: 0.4555
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004112161412174242
+round 39 training_num 975.0
+Unlearned Client Mean Global Test loss: 0.607026
+Unlearned Client Local Test Acc: 0.592(0.000), angle: 0.000000, min: 59.200000, max: 59.200000
+ASR: 0.104(0.000), min: 10.380000, max: 10.380000
+Retained Client Mean Global Test loss: 1.276322
+Retained Client Local Test Acc: 0.598(0.163), angle: 0.266602, min: 36.000000, max: 85.800000
+communication_time: 38.74351525306702, computation_time: 20.060123205184937 
+
+distance: 0.4532
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.00413282553987361
+round 38 training_num 950.0
+Unlearned Client Mean Global Test loss: 0.621634
+Unlearned Client Local Test Acc: 0.587(0.000), angle: 0.000000, min: 58.700000, max: 58.700000
+ASR: 0.110(0.000), min: 10.960000, max: 10.960000
+Retained Client Mean Global Test loss: 1.238078
+Retained Client Local Test Acc: 0.599(0.166), angle: 0.270209, min: 34.700000, max: 85.400000
+communication_time: 37.72760057449341, computation_time: 20.057926416397095 
+
+distance: 0.4499
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004153593507410664
+round 37 training_num 925.0
+Unlearned Client Mean Global Test loss: 0.693288
+Unlearned Client Local Test Acc: 0.597(0.000), angle: 0.000000, min: 59.700000, max: 59.700000
+ASR: 0.113(0.000), min: 11.280000, max: 11.280000
+Retained Client Mean Global Test loss: 1.225000
+Retained Client Local Test Acc: 0.600(0.153), angle: 0.250100, min: 38.700000, max: 85.400000
+communication_time: 36.738210678100586, computation_time: 18.974072694778442 
+
+distance: 0.4477
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0041744658365936325
+round 36 training_num 900.0
+Unlearned Client Mean Global Test loss: 0.583177
+Unlearned Client Local Test Acc: 0.576(0.000), angle: 0.000000, min: 57.600000, max: 57.600000
+ASR: 0.120(0.000), min: 12.040000, max: 12.040000
+Retained Client Mean Global Test loss: 1.272289
+Retained Client Local Test Acc: 0.605(0.153), angle: 0.247244, min: 36.500000, max: 84.000000
+communication_time: 35.68896198272705, computation_time: 18.971871376037598 
+
+distance: 0.4447
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004195443051852896
+round 35 training_num 875.0
+Unlearned Client Mean Global Test loss: 0.698228
+Unlearned Client Local Test Acc: 0.571(0.000), angle: 0.000000, min: 57.100000, max: 57.100000
+ASR: 0.111(0.000), min: 11.060000, max: 11.060000
+Retained Client Mean Global Test loss: 1.231522
+Retained Client Local Test Acc: 0.597(0.170), angle: 0.277837, min: 34.700000, max: 86.300000
+communication_time: 34.91927480697632, computation_time: 18.18305206298828 
+
+distance: 0.4422
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004216525680254168
+round 34 training_num 850.0
+Unlearned Client Mean Global Test loss: 0.649038
+Unlearned Client Local Test Acc: 0.575(0.000), angle: 0.000000, min: 57.500000, max: 57.500000
+ASR: 0.124(0.000), min: 12.360000, max: 12.360000
+Retained Client Mean Global Test loss: 1.228111
+Retained Client Local Test Acc: 0.605(0.145), angle: 0.235980, min: 39.600000, max: 84.200000
+communication_time: 33.88409113883972, computation_time: 18.180851936340332 
+
+distance: 0.4385
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0042377142515117264
+round 33 training_num 825.0
+Unlearned Client Mean Global Test loss: 0.703361
+Unlearned Client Local Test Acc: 0.571(0.000), angle: 0.000000, min: 57.100000, max: 57.100000
+ASR: 0.123(0.000), min: 12.320000, max: 12.320000
+Retained Client Mean Global Test loss: 1.210344
+Retained Client Local Test Acc: 0.601(0.155), angle: 0.252650, min: 37.100000, max: 84.700000
+communication_time: 32.84527659416199, computation_time: 17.112797260284424 
+
+distance: 0.4358
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004259009298001735
+round 32 training_num 800.0
+Unlearned Client Mean Global Test loss: 0.661601
+Unlearned Client Local Test Acc: 0.568(0.000), angle: 0.000000, min: 56.800000, max: 56.800000
+ASR: 0.133(0.000), min: 13.320000, max: 13.320000
+Retained Client Mean Global Test loss: 1.239811
+Retained Client Local Test Acc: 0.605(0.144), angle: 0.233885, min: 41.100000, max: 84.800000
+communication_time: 31.798556566238403, computation_time: 17.110625743865967 
+
+distance: 0.4329
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004280411354775613
+round 31 training_num 775.0
+Unlearned Client Mean Global Test loss: 0.686374
+Unlearned Client Local Test Acc: 0.589(0.000), angle: 0.000000, min: 58.900000, max: 58.900000
+ASR: 0.121(0.000), min: 12.080000, max: 12.080000
+Retained Client Mean Global Test loss: 1.251000
+Retained Client Local Test Acc: 0.597(0.165), angle: 0.269253, min: 34.800000, max: 84.800000
+communication_time: 30.76552724838257, computation_time: 16.0324547290802 
+
+distance: 0.4299
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0043019209595734804
+round 30 training_num 750.0
+Unlearned Client Mean Global Test loss: 0.725112
+Unlearned Client Local Test Acc: 0.592(0.000), angle: 0.000000, min: 59.200000, max: 59.200000
+ASR: 0.124(0.000), min: 12.360000, max: 12.360000
+Retained Client Mean Global Test loss: 1.226022
+Retained Client Local Test Acc: 0.597(0.170), angle: 0.277721, min: 33.500000, max: 85.200000
+communication_time: 29.70963454246521, computation_time: 16.03031063079834 
+
+distance: 0.4265
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0043235386528376685
+round 29 training_num 725.0
+Unlearned Client Mean Global Test loss: 0.750188
+Unlearned Client Local Test Acc: 0.584(0.000), angle: 0.000000, min: 58.400000, max: 58.400000
+ASR: 0.136(0.000), min: 13.560000, max: 13.560000
+Retained Client Mean Global Test loss: 1.199033
+Retained Client Local Test Acc: 0.600(0.151), angle: 0.246873, min: 40.000000, max: 85.300000
+communication_time: 28.68834662437439, computation_time: 14.962171077728271 
+
+distance: 0.4229
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004345264977726301
+round 28 training_num 700.0
+Unlearned Client Mean Global Test loss: 0.745767
+Unlearned Client Local Test Acc: 0.564(0.000), angle: 0.000000, min: 56.400000, max: 56.400000
+ASR: 0.140(0.000), min: 14.000000, max: 14.000000
+Retained Client Mean Global Test loss: 1.219444
+Retained Client Local Test Acc: 0.604(0.151), angle: 0.245514, min: 38.300000, max: 84.400000
+communication_time: 27.865076780319214, computation_time: 14.959346055984497 
+
+distance: 0.4196
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004367100480126935
+round 27 training_num 675.0
+Unlearned Client Mean Global Test loss: 0.765984
+Unlearned Client Local Test Acc: 0.583(0.000), angle: 0.000000, min: 58.300000, max: 58.300000
+ASR: 0.140(0.000), min: 14.040000, max: 14.040000
+Retained Client Mean Global Test loss: 1.221511
+Retained Client Local Test Acc: 0.600(0.157), angle: 0.255670, min: 38.600000, max: 85.900000
+communication_time: 27.058894634246826, computation_time: 13.894590854644775 
+
+distance: 0.4161
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004389045708670286
+round 26 training_num 650.0
+Unlearned Client Mean Global Test loss: 0.738994
+Unlearned Client Local Test Acc: 0.557(0.000), angle: 0.000000, min: 55.700000, max: 55.700000
+ASR: 0.141(0.000), min: 14.060000, max: 14.060000
+Retained Client Mean Global Test loss: 1.253033
+Retained Client Local Test Acc: 0.601(0.156), angle: 0.254665, min: 38.400000, max: 85.300000
+communication_time: 26.267297506332397, computation_time: 13.892734050750732 
+
+distance: 0.4126
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004411101214744006
+round 25 training_num 625.0
+Unlearned Client Mean Global Test loss: 0.831349
+Unlearned Client Local Test Acc: 0.587(0.000), angle: 0.000000, min: 58.700000, max: 58.700000
+ASR: 0.143(0.000), min: 14.260000, max: 14.260000
+Retained Client Mean Global Test loss: 1.207833
+Retained Client Local Test Acc: 0.596(0.171), angle: 0.279072, min: 33.900000, max: 86.000000
+communication_time: 25.22035837173462, computation_time: 12.827014923095703 
+
+distance: 0.4093
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004433267552506539
+round 24 training_num 600.0
+Unlearned Client Mean Global Test loss: 0.790123
+Unlearned Client Local Test Acc: 0.547(0.000), angle: 0.000000, min: 54.700000, max: 54.700000
+ASR: 0.151(0.000), min: 15.120000, max: 15.120000
+Retained Client Mean Global Test loss: 1.232711
+Retained Client Local Test Acc: 0.601(0.153), angle: 0.249527, min: 38.400000, max: 84.400000
+communication_time: 24.22530221939087, computation_time: 12.824861764907837 
+
+distance: 0.4054
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004455545278901045
+round 23 training_num 575.0
+Unlearned Client Mean Global Test loss: 0.939408
+Unlearned Client Local Test Acc: 0.599(0.000), angle: 0.000000, min: 59.900000, max: 59.900000
+ASR: 0.147(0.000), min: 14.720000, max: 14.720000
+Retained Client Mean Global Test loss: 1.208944
+Retained Client Local Test Acc: 0.595(0.175), angle: 0.286443, min: 32.500000, max: 85.600000
+communication_time: 23.440993309020996, computation_time: 11.777278184890747 
+
+distance: 0.4021
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004477934953669391
+round 22 training_num 550.0
+Unlearned Client Mean Global Test loss: 0.925633
+Unlearned Client Local Test Acc: 0.577(0.000), angle: 0.000000, min: 57.700000, max: 57.700000
+ASR: 0.172(0.000), min: 17.220000, max: 17.220000
+Retained Client Mean Global Test loss: 1.199033
+Retained Client Local Test Acc: 0.600(0.154), angle: 0.250679, min: 40.000000, max: 85.900000
+communication_time: 22.403895616531372, computation_time: 11.774845361709595 
+
+distance: 0.3968
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004500437139366222
+round 21 training_num 525.0
+Unlearned Client Mean Global Test loss: 0.945803
+Unlearned Client Local Test Acc: 0.555(0.000), angle: 0.000000, min: 55.500000, max: 55.500000
+ASR: 0.168(0.000), min: 16.800000, max: 16.800000
+Retained Client Mean Global Test loss: 1.224689
+Retained Client Local Test Acc: 0.599(0.160), angle: 0.260764, min: 36.500000, max: 84.800000
+communication_time: 21.486199855804443, computation_time: 10.716888189315796 
+
+distance: 0.3933
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004523052401373088
+round 20 training_num 500.0
+Unlearned Client Mean Global Test loss: 0.963775
+Unlearned Client Local Test Acc: 0.558(0.000), angle: 0.000000, min: 55.800000, max: 55.800000
+ASR: 0.172(0.000), min: 17.200000, max: 17.200000
+Retained Client Mean Global Test loss: 1.220178
+Retained Client Local Test Acc: 0.596(0.165), angle: 0.269431, min: 36.800000, max: 86.100000
+communication_time: 20.517817974090576, computation_time: 10.714691162109375 
+
+distance: 0.389
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004545781307912651
+round 19 training_num 475.0
+Unlearned Client Mean Global Test loss: 1.121578
+Unlearned Client Local Test Acc: 0.551(0.000), angle: 0.000000, min: 55.100000, max: 55.100000
+ASR: 0.184(0.000), min: 18.420000, max: 18.420000
+Retained Client Mean Global Test loss: 1.186589
+Retained Client Local Test Acc: 0.597(0.161), angle: 0.263998, min: 38.800000, max: 86.400000
+communication_time: 19.489896297454834, computation_time: 9.65102744102478 
+
+distance: 0.3844
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004568624430062966
+round 18 training_num 450.0
+Unlearned Client Mean Global Test loss: 1.028586
+Unlearned Client Local Test Acc: 0.544(0.000), angle: 0.000000, min: 54.400000, max: 54.400000
+ASR: 0.195(0.000), min: 19.480000, max: 19.480000
+Retained Client Mean Global Test loss: 1.226667
+Retained Client Local Test Acc: 0.599(0.159), angle: 0.259393, min: 37.200000, max: 84.800000
+communication_time: 18.45187258720398, computation_time: 9.64887285232544 
+
+distance: 0.3798
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004591582341771825
+round 17 training_num 425.0
+Unlearned Client Mean Global Test loss: 1.218449
+Unlearned Client Local Test Acc: 0.526(0.000), angle: 0.000000, min: 52.600000, max: 52.600000
+ASR: 0.186(0.000), min: 18.560000, max: 18.560000
+Retained Client Mean Global Test loss: 1.184267
+Retained Client Local Test Acc: 0.588(0.180), angle: 0.297783, min: 34.500000, max: 87.000000
+communication_time: 17.40913200378418, computation_time: 8.578139781951904 
+
+distance: 0.3762
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004614655619871181
+round 16 training_num 400.0
+Unlearned Client Mean Global Test loss: 1.192778
+Unlearned Client Local Test Acc: 0.514(0.000), angle: 0.000000, min: 51.400000, max: 51.400000
+ASR: 0.218(0.000), min: 21.820000, max: 21.820000
+Retained Client Mean Global Test loss: 1.234722
+Retained Client Local Test Acc: 0.598(0.161), angle: 0.262712, min: 37.400000, max: 84.500000
+communication_time: 16.342783212661743, computation_time: 8.575977087020874 
+
+distance: 0.3705
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004637844844091639
+round 15 training_num 375.0
+Unlearned Client Mean Global Test loss: 1.366369
+Unlearned Client Local Test Acc: 0.516(0.000), angle: 0.000000, min: 51.600000, max: 51.600000
+ASR: 0.209(0.000), min: 20.900000, max: 20.900000
+Retained Client Mean Global Test loss: 1.178511
+Retained Client Local Test Acc: 0.586(0.179), angle: 0.296682, min: 35.500000, max: 87.500000
+communication_time: 15.31678819656372, computation_time: 7.5256500244140625 
+
+distance: 0.367
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004661150597077024
+round 14 training_num 350.0
+Unlearned Client Mean Global Test loss: 1.368904
+Unlearned Client Local Test Acc: 0.501(0.000), angle: 0.000000, min: 50.100000, max: 50.100000
+ASR: 0.242(0.000), min: 24.180000, max: 24.180000
+Retained Client Mean Global Test loss: 1.216533
+Retained Client Local Test Acc: 0.592(0.173), angle: 0.283783, min: 33.700000, max: 85.200000
+communication_time: 14.262923002243042, computation_time: 7.523411273956299 
+
+distance: 0.3615
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004684573464399019
+round 13 training_num 325.0
+Unlearned Client Mean Global Test loss: 1.501108
+Unlearned Client Local Test Acc: 0.477(0.000), angle: 0.000000, min: 47.700000, max: 47.700000
+ASR: 0.246(0.000), min: 24.600000, max: 24.600000
+Retained Client Mean Global Test loss: 1.206211
+Retained Client Local Test Acc: 0.585(0.182), angle: 0.301469, min: 34.200000, max: 86.700000
+communication_time: 13.290881633758545, computation_time: 6.486730575561523 
+
+distance: 0.3571
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004708114034571879
+round 12 training_num 300.0
+Unlearned Client Mean Global Test loss: 1.632482
+Unlearned Client Local Test Acc: 0.451(0.000), angle: 0.000000, min: 45.100000, max: 45.100000
+ASR: 0.260(0.000), min: 25.980000, max: 25.980000
+Retained Client Mean Global Test loss: 1.207356
+Retained Client Local Test Acc: 0.585(0.186), angle: 0.307540, min: 32.900000, max: 85.800000
+communication_time: 12.523722887039185, computation_time: 6.484918117523193 
+
+distance: 0.3524
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004731772899067215
+round 11 training_num 275.0
+Unlearned Client Mean Global Test loss: 1.814967
+Unlearned Client Local Test Acc: 0.431(0.000), angle: 0.000000, min: 43.100000, max: 43.100000
+ASR: 0.279(0.000), min: 27.920000, max: 27.920000
+Retained Client Mean Global Test loss: 1.225900
+Retained Client Local Test Acc: 0.581(0.190), angle: 0.316254, min: 33.500000, max: 85.700000
+communication_time: 11.480172157287598, computation_time: 5.41373872756958 
+
+distance: 0.3471
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004755550652328859
+round 10 training_num 250.0
+Unlearned Client Mean Global Test loss: 1.965999
+Unlearned Client Local Test Acc: 0.390(0.000), angle: 0.000000, min: 39.000000, max: 39.000000
+ASR: 0.301(0.000), min: 30.080000, max: 30.080000
+Retained Client Mean Global Test loss: 1.211933
+Retained Client Local Test Acc: 0.578(0.195), angle: 0.325487, min: 31.700000, max: 84.900000
+communication_time: 10.47720456123352, computation_time: 5.411606788635254 
+
+distance: 0.3429
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004779447891787798
+round 9 training_num 225.0
+Unlearned Client Mean Global Test loss: 2.165885
+Unlearned Client Local Test Acc: 0.387(0.000), angle: 0.000000, min: 38.700000, max: 38.700000
+ASR: 0.322(0.000), min: 32.200000, max: 32.200000
+Retained Client Mean Global Test loss: 1.219656
+Retained Client Local Test Acc: 0.576(0.199), angle: 0.333235, min: 30.800000, max: 85.100000
+communication_time: 9.428134441375732, computation_time: 4.336025953292847 
+
+distance: 0.3388
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004803465217877184
+round 8 training_num 200.0
+Unlearned Client Mean Global Test loss: 2.369675
+Unlearned Client Local Test Acc: 0.349(0.000), angle: 0.000000, min: 34.900000, max: 34.900000
+ASR: 0.339(0.000), min: 33.900000, max: 33.900000
+Retained Client Mean Global Test loss: 1.225222
+Retained Client Local Test Acc: 0.569(0.195), angle: 0.330658, min: 31.500000, max: 84.500000
+communication_time: 8.373050451278687, computation_time: 4.333831071853638 
+
+distance: 0.3354
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004827603234047421
+round 7 training_num 175.0
+Unlearned Client Mean Global Test loss: 2.653671
+Unlearned Client Local Test Acc: 0.362(0.000), angle: 0.000000, min: 36.200000, max: 36.200000
+ASR: 0.373(0.000), min: 37.260000, max: 37.260000
+Retained Client Mean Global Test loss: 1.220478
+Retained Client Local Test Acc: 0.563(0.199), angle: 0.340091, min: 31.500000, max: 84.800000
+communication_time: 7.31324577331543, computation_time: 3.262022018432617 
+
+distance: 0.3336
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004851862546781328
+round 6 training_num 150.0
+Unlearned Client Mean Global Test loss: 3.095881
+Unlearned Client Local Test Acc: 0.340(0.000), angle: 0.000000, min: 34.000000, max: 34.000000
+ASR: 0.411(0.000), min: 41.140000, max: 41.140000
+Retained Client Mean Global Test loss: 1.205267
+Retained Client Local Test Acc: 0.557(0.200), angle: 0.345082, min: 30.900000, max: 83.000000
+communication_time: 6.252479314804077, computation_time: 3.259845733642578 
+
+distance: 0.3342
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004876243765609375
+round 5 training_num 125.0
+Unlearned Client Mean Global Test loss: 3.363663
+Unlearned Client Local Test Acc: 0.320(0.000), angle: 0.000000, min: 32.000000, max: 32.000000
+ASR: 0.478(0.000), min: 47.800000, max: 47.800000
+Retained Client Mean Global Test loss: 1.207044
+Retained Client Local Test Acc: 0.556(0.188), angle: 0.325838, min: 29.500000, max: 80.600000
+communication_time: 5.232519626617432, computation_time: 2.1962506771087646 
+
+distance: 0.3377
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0049007475031249996
+round 4 training_num 100.0
+Unlearned Client Mean Global Test loss: 2.864713
+Unlearned Client Local Test Acc: 0.326(0.000), angle: 0.000000, min: 32.600000, max: 32.600000
+ASR: 0.541(0.000), min: 54.120000, max: 54.120000
+Retained Client Mean Global Test loss: 1.367000
+Retained Client Local Test Acc: 0.549(0.185), angle: 0.325143, min: 29.600000, max: 78.400000
+communication_time: 4.176992416381836, computation_time: 2.1940810680389404 
+
+distance: 0.3483
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004925374375
+round 3 training_num 75.0
+Unlearned Client Mean Global Test loss: 2.128424
+Unlearned Client Local Test Acc: 0.319(0.000), angle: 0.000000, min: 31.900000, max: 31.900000
+ASR: 0.578(0.000), min: 57.780000, max: 57.780000
+Retained Client Mean Global Test loss: 2.174011
+Retained Client Local Test Acc: 0.512(0.224), angle: 0.412358, min: 17.700000, max: 76.900000
+communication_time: 3.1237306594848633, computation_time: 1.0694468021392822 
+
+distance: 0.3759
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.0049501250000000005
+round 2 training_num 50.0
+Unlearned Client Mean Global Test loss: 4.902075
+Unlearned Client Local Test Acc: 0.025(0.000), angle: 0.000000, min: 2.500000, max: 2.500000
+ASR: 0.476(0.000), min: 47.560000, max: 47.560000
+Retained Client Mean Global Test loss: 4.761478
+Retained Client Local Test Acc: 0.379(0.320), angle: 0.701044, min: 2.800000, max: 81.200000
+communication_time: 2.062701940536499, computation_time: 1.0672492980957031 
+
+distance: 0.4045
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.004975
+round 1 training_num 25.0
+Unlearned Client Mean Global Test loss: 21.161947
+Unlearned Client Local Test Acc: 0.285(0.000), angle: 0.000000, min: 28.500000, max: 28.500000
+ASR: 0.332(0.000), min: 33.200000, max: 33.200000
+Retained Client Mean Global Test loss: 1.437267
+Retained Client Local Test Acc: 0.432(0.398), angle: 0.744358, min: 1.600000, max: 90.900000
+communication_time: 1.0344233512878418, computation_time: 0.002721548080444336 
+
+distance: 0.0999
+seed1 N10 C1.0 FedGMM_Adversarial CNN_CIFAR10 E1 lr0.005 decay0.995 g_clip-1.0 cifar10 pat balanced B200 NC2 N10
+Lr: 0.005
+round 0 training_num 0
+Unlearned Client Mean Global Test loss: 21.101331
+Unlearned Client Local Test Acc: 0.492(0.000), angle: 0.000000, min: 49.200000, max: 49.200000
+ASR: 0.886(0.000), min: 88.600000, max: 88.600000
+Retained Client Mean Global Test loss: 1.422767
+Retained Client Local Test Acc: 0.595(0.118), angle: 0.195662, min: 47.600000, max: 77.900000
+communication_time: 0, computation_time: 0 
+
+distance: 0.0
+Unlearn clients: [2][[(0, 3000), (1, 3000)], [(0, 3000), (1, 3000)], [(2, 3000), (3, 3000)], [(2, 3000), (3, 3000)], [(4, 3000), (5, 3000)], [(4, 3000), (5, 3000)], [(6, 3000), (7, 3000)], [(6, 3000), (7, 3000)], [(8, 3000), (9, 3000)], [(8, 3000), (9, 3000)]]

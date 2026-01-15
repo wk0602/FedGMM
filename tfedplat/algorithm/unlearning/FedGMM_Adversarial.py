@@ -268,6 +268,16 @@ class FedGMM_Adversarial(fp.UnlearnAlgorithm):
         # Statistics tracking
         self.correct_prob_history = []  # Track average correct class probability
 
+        # EMA mask stabilization:
+        # Maintain a smoothed importance score per unlearn client to avoid mask "thrashing"
+        # due to noisy per-round gradients.
+        self.mask_score_ema = {}  # client_id -> score vector (same dim as grad vec)
+        self.mask_ema_beta = (
+            float(params.get("adv_mask_ema_beta", 0.0)) if params is not None else 0.0
+        )
+        # Backward-compatible: beta <= 0 disables EMA and uses instantaneous score.
+        # Recommended range: 0.9 ~ 0.99.
+
     def _create_adversarial_loss(self) -> AdversarialForgettingLoss:
         """Create adversarial forgetting loss with current parameters."""
         return AdversarialForgettingLoss(
@@ -340,6 +350,62 @@ class FedGMM_Adversarial(fp.UnlearnAlgorithm):
 
         return mask
 
+    def _compute_gradient_divergence_score(self, unlearn_client) -> torch.Tensor:
+        """
+        Compute a continuous divergence score for each parameter (higher = more forget-specific).
+
+        This is the same idea as _compute_gradient_divergence_mask(), but returns a score vector
+        so we can apply EMA smoothing before selecting top-k.
+        """
+        forget_grad = self._compute_client_gradient(unlearn_client)
+
+        retain_grads = []
+        for client in self.client_list:
+            if not getattr(client, "unlearn_flag", False):
+                retain_grads.append(self._compute_client_gradient(client))
+
+        if len(retain_grads) == 0:
+            score = torch.abs(forget_grad)
+        else:
+            retain_grad_avg = torch.stack(retain_grads).mean(dim=0)
+            score = -forget_grad * retain_grad_avg
+            score = score + torch.abs(forget_grad)
+
+        # Normalize to [0, 1] for stability
+        score = (score - score.min()) / (score.max() - score.min() + 1e-8)
+        return score
+
+    def _compute_gradient_magnitude_score(self, grad_vec: torch.Tensor) -> torch.Tensor:
+        """Continuous magnitude score for each parameter."""
+        score = torch.abs(grad_vec)
+        score = (score - score.min()) / (score.max() - score.min() + 1e-8)
+        return score
+
+    def _score_to_mask(self, score: torch.Tensor) -> torch.Tensor:
+        """Convert a continuous score vector into a binary top-rho mask."""
+        k = max(1, int(len(score) * self.rho))
+        _, indices = torch.topk(score, k=k, largest=True)
+        mask = torch.zeros_like(score, device=self.device)
+        mask[indices] = 1.0
+        return mask
+
+    def _update_ema_score(self, client_id: int, score: torch.Tensor) -> torch.Tensor:
+        """
+        Update and return the (optionally) EMA-smoothed score for a client.
+
+        If self.mask_ema_beta <= 0, EMA is disabled and 'score' is returned directly.
+        """
+        beta = float(self.mask_ema_beta)
+        if beta <= 0.0:
+            return score
+
+        prev = self.mask_score_ema.get(client_id)
+        if prev is None:
+            self.mask_score_ema[client_id] = score.detach()
+        else:
+            self.mask_score_ema[client_id] = beta * prev + (1.0 - beta) * score.detach()
+        return self.mask_score_ema[client_id]
+
     def _compute_gradient_magnitude_mask(self, grad_vec):
         """
         Compute mask based on gradient magnitude (standard approach).
@@ -363,12 +429,13 @@ class FedGMM_Adversarial(fp.UnlearnAlgorithm):
                 continue
 
             if self.use_grad_divergence:
-                mask = self._compute_gradient_divergence_mask(client)
+                score = self._compute_gradient_divergence_score(client)
             else:
                 grad_vec = self._compute_client_gradient(client)
-                mask = self._compute_gradient_magnitude_mask(grad_vec)
+                score = self._compute_gradient_magnitude_score(grad_vec)
 
-            self.mask_dict[client.id] = mask
+            score_smoothed = self._update_ema_score(client.id, score)
+            self.mask_dict[client.id] = self._score_to_mask(score_smoothed)
 
     def _maybe_refresh_masks(self):
         """Refresh masks periodically or when needed."""
@@ -495,7 +562,7 @@ class FedGMM_Adversarial(fp.UnlearnAlgorithm):
         self._build_or_refresh_masks()
 
         print(f"\n{'=' * 60}")
-        print(f"FedGMM-Adversarial Starting")
+        print("FedGMM-Adversarial Starting")
         print(f"  Mode: {self.adv_mode}")
         print(f"  Temperature: {self.adv_temperature}")
         print(f"  Entropy Weight: {self.adv_entropy_weight}")

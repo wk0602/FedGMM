@@ -29,8 +29,8 @@ from tfedplat.algorithm.FedAvg.FedAvg import FedAvg
 
 # unlearning
 from tfedplat.algorithm.unlearning.UnlearnAlgorithm import UnlearnAlgorithm
-from tfedplat.algorithm.unlearning.FedGMM import FedGMM
 from tfedplat.algorithm.unlearning.FedGMM_Adversarial import FedGMM_Adversarial
+from tfedplat.algorithm.unlearning.FedOSD import FedOSD
 
 
 # import backdoors

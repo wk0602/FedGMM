@@ -19,7 +19,7 @@ C: 1.0                   # select client proportion
 R: 2000                  # communication round
 UR: 2000                 # Unlearning round, must be smaller than R
 E: 1                     # local epochs
-decay: 0.999             # learning rate decay
+decay: 0.995             # learning rate decay
 step_type: bgd           # step type
 lr: 0.005                # learning rate (提高学习率，加快遗忘速度)
 
@@ -32,12 +32,13 @@ unlearn_pretrain: False  # pretrain the model before unlearning
 # ========================================
 
 # Gradient Masking Parameters
-adv_rho: 0.25            # Top-rho mask ratio (从0.15提高到0.25，掩码更多参数)
-adv_mask_refresh: 3      # Mask refresh interval (从5降到3，更频繁刷新掩码)
+adv_rho: 0.30            # Top-rho mask ratio (从0.15提高到0.25，掩码更多参数)
+adv_mask_refresh: 2      # Mask refresh interval (从5降到3，更频繁刷新掩码)
+adv_mask_ema_beta: 0.95  # EMA smoothing for mask scores (0 disables EMA; 推荐 0.9~0.99，越大越稳)
 
 # Adversarial Forgetting Loss Parameters
 adv_weight: 3.0          # Overall loss weight (从1.0提高到3.0，增强对抗性损失的影响)
-adv_temperature: 1.5     # Temperature for softmax (从2.0降到1.5，使预测更尖锐)
+adv_temperature: 1.2     # Temperature for softmax (从2.0降到1.5，使预测更尖锐)
 adv_entropy_weight: 0.05 # Entropy regularization weight (从0.1降到0.05，减少熵约束，允许更自信的错误预测)
 adv_margin: 0.2          # Margin for margin-based mode (从0.3降到0.2，更严格的要求)
 

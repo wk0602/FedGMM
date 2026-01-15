@@ -1,0 +1,40 @@
+# FedOSD Unlearning Configuration File
+# FedOSD baseline 配置文件（用于在本项目 tfedplat 中直接运行）
+
+# Basic Settings
+seed: 1
+device: 0
+module: CNN_CIFAR10
+algorithm: FedOSD
+dataloader: DataLoader_cifar10_pat
+
+# Data Settings
+N: 10                    # client num
+NC: 2                    # client_class_num
+balance: True            # balance or not for pathological separation
+B: 200                   # batch size
+C: 1.0                   # select client proportion
+
+# Training Settings
+R: 200                   # communication round (FedOSD paper baseline example)
+UR: 100                  # Unlearning round, must be smaller than R
+E: 1                     # local epochs
+decay: 0.999             # learning rate decay
+step_type: bgd           # step type
+lr: 0.0004               # learning rate (FedOSD README 推荐)
+
+# Unlearning Settings
+unlearn_cn: 1            # unlearn client num
+unlearn_pretrain: False  # pretrain the model before unlearning
+
+# Optional / Compatibility Params
+r_lr: 1.0e-6             # (deprecated in current UnlearnAlgorithm, kept for compatibility)
+test_conflicts: False    # whether to log conflict stats in UnlearnAlgorithm
+
+# Early Stopping (FedOSD: disabled)
+early_stop: False
+
+# Model Settings
+save_model: True         # save model
+
+
