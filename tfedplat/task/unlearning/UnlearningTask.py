@@ -384,6 +384,36 @@ class UnlearningTask(fp.BasicTask):
             type=str,
             default=None,
         )
+        parser.add_argument(
+            "--adv_rho_min",
+            help="Starting mask ratio for progressive masking (cosine schedule)",
+            type=float,
+            default=None,
+        )
+        parser.add_argument(
+            "--adv_rho_max",
+            help="Ending mask ratio for progressive masking (cosine schedule)",
+            type=float,
+            default=None,
+        )
+        parser.add_argument(
+            "--adv_alpha_init",
+            help="Initial adversarial weight for loss annealing (cosine schedule)",
+            type=float,
+            default=None,
+        )
+        parser.add_argument(
+            "--adv_alpha_max",
+            help="Final adversarial weight for loss annealing (cosine schedule)",
+            type=float,
+            default=None,
+        )
+        parser.add_argument(
+            "--adv_mask_ema_beta",
+            help="EMA smoothing coefficient for mask scores (0 disables)",
+            type=float,
+            default=None,
+        )
 
         try:
             if return_parser:
@@ -411,6 +441,11 @@ class UnlearningTask(fp.BasicTask):
                     "adv_margin": 0.3,
                     "adv_mode": "confident_wrong",
                     "adv_use_grad_divergence": False,
+                    "adv_rho_min": None,
+                    "adv_rho_max": None,
+                    "adv_alpha_init": None,
+                    "adv_alpha_max": None,
+                    "adv_mask_ema_beta": 0.0,
                     # Early stopping
                     "early_stop": True,
                     "early_stop_threshold": 0.05,
